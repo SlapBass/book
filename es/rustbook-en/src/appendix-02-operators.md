@@ -83,7 +83,7 @@ Símbolo | Explicación
 `br"..."` , `br#"..."#` , `br##"..."##` , etc. | Literal de cadena de bytes sin formato, combinación de literal de cadena de bytes y sin formato
 `'...'` | Carácter literal
 `b'...'` | Literal de bytes ASCII
-<code>|...| expr</code> | Cierre
+<code>|...| expr</code> | Closure
 `!` | Tipo de fondo siempre vacío para funciones divergentes
 `_` | Enlace de patrón "ignorado"; también se usa para hacer legibles los literales enteros
 
