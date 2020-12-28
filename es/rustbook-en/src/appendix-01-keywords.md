@@ -1,6 +1,6 @@
 ## Apéndice A: Palabras clave
 
-The following list contains keywords that are reserved for current or future use by the Rust language. As such, they cannot be used as identifiers (except as raw identifiers as we’ll discuss in the “[Raw Identifiers](#raw-identifiers)<!-- ignore -->” section), including names of functions, variables, parameters, struct fields, modules, crates, constants, macros, static values, attributes, types, traits, or lifetimes.
+The following list contains keywords that are reserved for current or future use by the Rust language. As such, they cannot be used as identifiers (except as raw identifiers as we’ll discuss in the “[Raw Identifiers]<!-- ignore -->” section), including names of functions, variables, parameters, struct fields, modules, crates, constants, macros, static values, attributes, types, traits, or lifetimes.
 
 ### Palabras clave actualmente en uso
 
@@ -103,4 +103,8 @@ fn main() {
 
 Este código se compilará sin errores. Tenga en cuenta el prefijo `r#` en el nombre de la función en su definición, así como dónde se llama a la función en `main` .
 
-Los identificadores sin formato le permiten usar cualquier palabra que elija como identificador, incluso si esa palabra es una palabra clave reservada. Además, los identificadores en bruto le permiten usar bibliotecas escritas en una edición de Rust diferente a la que usa su caja. Por ejemplo, `try` no es una palabra clave en la edición de 2015, pero sí en la edición de 2018. Si depende de una biblioteca que está escrita con la edición 2015 y tiene una función de `try` , necesitará usar la sintaxis de identificador sin formato, `r#try` en este caso, para llamar a esa función desde su código de edición 2018. Ver [Apéndice E](appendix-05-editions.html)<!-- ignorar --> para obtener más información sobre las ediciones.
+Los identificadores sin formato le permiten usar cualquier palabra que elija como identificador, incluso si esa palabra es una palabra clave reservada. Además, los identificadores en bruto le permiten usar bibliotecas escritas en una edición de Rust diferente a la que usa su caja. Por ejemplo, `try` no es una palabra clave en la edición de 2015, pero sí en la edición de 2018. Si depende de una biblioteca que está escrita con la edición 2015 y tiene una función de `try` , necesitará usar la sintaxis de identificador sin formato, `r#try` en este caso, para llamar a esa función desde su código de edición 2018. Ver [Apéndice E]<!-- ignorar --> para obtener más información sobre las ediciones.
+
+
+[Raw Identifiers]: #raw-identifiers
+[Apéndice E]: appendix-05-editions.html
